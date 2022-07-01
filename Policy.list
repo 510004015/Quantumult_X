@@ -1,0 +1,3 @@
+host-suffix，safebrowsing.urlsec.qq.com，拒绝
+host-suffix，safebrowsing.googleapis.com，拒绝
+host-suffix，repup.api.bsb.baidu.com，拒绝
