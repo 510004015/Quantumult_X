@@ -1,3 +1,6 @@
+# > 屏蔽拦截
 host-suffix, safebrowsing.urlsec.qq.com
 host-suffix, safebrowsing.googleapis.com
 host-suffix, lookup.api.bsb.baidu.com
+# > Safari防跳转
+host, app-site-association.cdn-apple.com
