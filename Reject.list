@@ -4,5 +4,3 @@ host-suffix, safebrowsing.googleapis.com
 host-suffix, lookup.api.bsb.baidu.com
 # > Safari防跳转
 host, app-site-association.cdn-apple.com
-# > YouTube屏蔽底部广告
-host-suffix, ehg-youtube.hitbox.com
