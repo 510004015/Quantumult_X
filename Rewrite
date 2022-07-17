@@ -1,0 +1,94 @@
+# 美图秀秀(2022.01.17)    api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com
+# 注：解锁高级会员（包括但不限于：付费海报模板、高级滤镜、高级素材等），无须登陆
+^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiTuXiuXiu.js
+
+# > 11 PornHub[网页优化]@ddgksf2013 - 网站地址：https://cn.pornhub.com
+^https:\/\/(cn|www)\.pornhub\.com\/_xa\/ads url reject-dict
+^https?:/\/(cn|www)\.pornhub\.com(\/?$|\/([?]|view|video).*$) url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/JS/pornhub.js
+
+#Notability解锁订阅
+^https?:\/\/notability\.com\/subscriptions url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/NotabilityProCrack.js
+
+#解锁Spotify 部分 Premium ，需ios15以上系统   spclient.wg.spotify.com
+^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+
+# 知乎去广告。  www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com,appcloud2.zhihu.com,103.41.167.236,103.41.167.234,103.41.167.235,103.41.167.226
+# 知乎处理用户信息
+^https?:\/\/api\.zhihu\.com\/people\/ url script-response-body https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js
+# 知乎信息流去广告
+^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=)(?!\/people) url script-response-body https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js
+# 知乎回答列表去广告
+^https?:\/\/api\.zhihu\.com\/v4\/questions url script-response-body https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js
+# 知乎获取黑名单
+^https?:\/\/api\.zhihu\.com\/settings\/blocked_users url script-response-body https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js
+# 知乎官方消息去广告
+^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message|timeline\/entry\/system_message) url script-response-body https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js
+# 知乎预置关键词去广告
+^https?:\/\/api\.zhihu\.com\/search\/preset_words\? url script-response-body https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js
+# 优化软件配置
+^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config url script-response-body https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js
+# 知乎热搜去广告
+^https?:\/\/api\.zhihu\.com\/search\/top_search\/tabs\/hot\/items url script-response-body https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js
+# 知乎热榜去广告
+^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/) url script-response-body https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js
+# 知乎评论去广告
+^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? url script-response-body https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js
+# 知乎回答列表去广告
+^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))? url script-response-body https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js
+# 知乎屏蔽关键词解锁
+^https?:\/\/api\.zhihu\.com\/feed-root\/block url script-analyze-echo-response https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js
+# 拦截知乎开屏广告
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? url reject-dict
+# 知乎去除最常访问
+^https?:\/\/api\.zhihu\.com\/moments\/recent url reject-dict
+# 知乎去除回答下的广告
+^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations url reject-dict
+# 知乎其他广告拦截
+^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|.*featured-comment-ad) url reject-dict
+# 知乎拦截部分预加载
+# ^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription) url reject-dict
+# 知乎网页版去广告
+^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings url reject-dict
+^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation url reject-dict
+^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner url reject-dict
+^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation url reject-dict
+# 知乎品牌提问广告
+^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? url reject-dict
+^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? url reject-dict
+# 屏蔽消息页面上拉的用户精选
+^https?:\/\/api\.zhihu\.com/moments/hybrid\? url reject-dict
+# 知乎下发的配置，如皮肤等
+^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config url reject-200
+# 屏蔽知乎“我的”页面推荐开通会员的卡片
+^https?:\/\/api\.zhihu\.com\/people\/self\/new_user_card url reject-200
+# 知乎去除Tab页关注人头像
+^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 url reject-dict
+
+#百度网盘解锁vip，视频倍速播放     pan.baidu.com
+https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
+
+# 扫描全能王 pro
+^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js
+
+# WPS解锁  超级会员、wps会员、稻壳会员  *.docer.wps.cn, vipapi.wps.cn, account.wps.cn
+
+# > WPS解锁稻壳会员
+^https?:\/\/account\.wps\.cn\/api\/v3\/mine\/vips url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSDocerVIPuserCrack.js
+^https?:\/\/.+\.(docer.)?wps.cn\/(user\/v1\/vip|android\/mb\/buy|download\/v1\/ios|partner\/invoke\/usable|(api|rank)\/v1(\/mobile\/mb)?\/detail) url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSDocerVIPowerCrack.js
+^https?:\/\/account\.wps\.cn\/api\/users url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
+
+# 微博去广告 api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, new.vip.weibo.cn
+# eibo adblock 
+^https?://m?api\.weibo\.c(n|om)/2/(cardlist|searchall|page|statuses/(unread_)?friends(/|_)timeline|groups/timeline|statuses/(unread_hot_timeline|extend|video_mixtimeline)|profile/(me|statuses)|video/(community_tab|remind_info|tiny_stream_video_list)|checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item) url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
+# 删除微博开屏广告 
+^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_launch.js
+# 自定义tab皮肤 
+^https://api.weibo.cn/2/!/client/light_skin url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
+# 非会员设置tab皮肤 
+^https://new.vip.weibo.cn/littleskin/preview url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
+
+#微信屏蔽跳转
+#在微信中打开淘宝等被屏蔽链接，点击 Surge/QuantumultX 通知跳转到 Safari 或淘宝 App
+^https?:\/\/weixin110\.qq\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/weixin110.js
+
+
