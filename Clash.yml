@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :909
 proxies:
-  - {name: 香港｜HongKong, server: 120.233.7.54, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 香港｜HongKong, server: 120.233.7.54, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, sni: h63956.waihuizhibiaowang.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
