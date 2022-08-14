@@ -1,3 +1,10 @@
+# > 知乎去广告
+IP-CIDR,118.89.204.198/32
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
+HOST,appcloud2.in.zhihu.com
+HOST,mqtt.zhihu.com
+HOST,sugar.zhihu.com
+USER-AGENT,AVOS*
 # > 屏蔽拦截
 host-suffix, safebrowsing.urlsec.qq.com
 host-suffix, safebrowsing.googleapis.com
