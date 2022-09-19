@@ -8,4 +8,4 @@ var title = obj['country'];
 var subtitle = obj['city'] + ' ' + obj['query'];
 
 
-$done({title});
+$done({title, subtitle});
