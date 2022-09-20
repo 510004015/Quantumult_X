@@ -6,8 +6,8 @@ var flags = new Map([["AC","🇦🇨"],["AD","🇦🇩"],["AE","🇦🇪"],["AF"
 var body = $response.body;
 var obj = JSON.parse(body);
 var title = obj['country'];
-var subtitle = obj['timezone'] + ' ' + "|" +  obj['city'] + ' ' + "|" + flags.get(obj['countryCode']);
+var subtitle = obj['timezone'] + "/" +  obj['city'] + "/" + flags.get(obj['countryCode']);
 var ip = obj['query'];
-var description = "国家" + ":" + obj['country'] + '\n' + "城市" + ":" + obj['city'] + '\n' + "时区" + ":" + obj['timezone'] + '\n' + "运营商" + ":" + obj['isp'] + '\n' + "数据中心" + ":" + obj['org'] + '\n' + "IP" + ":" + obj['query'];
+var description = "国家" + ":" + obj['country'] + '\n' + "时区" + ":" + obj['timezone'] + '\n' + "城市" + ":" + obj['city'] + '\n' + "运营商" + ":" + obj['isp'] + '\n' + "数据中心" + ":" + obj['org'] + '\n' + "IP" + ":" + obj['query'];
 
 $done({title, subtitle, ip, description});
