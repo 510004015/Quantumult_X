@@ -7,7 +7,7 @@ var flags = new Map([["AC","🇦🇨"],["AD","🇦🇩"],["AE","🇦🇪"],["AF"
 var body = $response.body;
 var obj = JSON.parse(body);
 var title = obj['country'];
-var subtitle = obj['city'] + ' ' + flags.get(obj['countryCode']);
+var subtitle = obj['city'] + ' ' + flags.get(obj['countryCode']) + ' ' + obj['timezone'];
 var ip = obj['query'];
 var description = "IP" + ":" + obj['query'] + '\n' + "运营商" + ":" + obj['isp'] + '\n' + "数据中心" + ":" + obj['org'] + '\n' + "时区" + ":" + obj['timezone'];
 
