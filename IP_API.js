@@ -8,6 +8,6 @@ var obj = JSON.parse(body);
 var title = obj['country'];
 var subtitle = obj['timezone'] + "/" +  obj['city'] + "/" + flags.get(obj['countryCode']);
 var ip = obj['query'];
-var description = "国家" + ":" + obj['country'] + '\n' + "时区" + ":" + obj['timezone'] + '\n' + "城市" + ":" + obj['city'] + '\n' + "运营商" + ":" + obj['isp'] + '\n' + "数据中心" + ":" + obj['org'] + '\n' + "IP" + ":" + obj['query'];
+var description = "国家" + ":" + obj['country'] + '\n' + "国际域名缩写" + ":" + obj['countryCode'] + '\n' + "时区" + ":" + obj['timezone'] + '\n' + "城市" + ":" + obj['city'] + "/" + obj['regionName']+ '\n' + "运营商" + ":" + obj['isp'] + '\n' + "数据中心" + ":" + obj['org'] + '\n' + "IP" + ":" + obj['query'];
 
 $done({title, subtitle, ip, description});
