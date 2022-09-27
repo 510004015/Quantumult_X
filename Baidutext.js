@@ -10,7 +10,7 @@
 
 [rewrite_local]
 
-^https:\/\/appwk\.baidu\.com\/naapi\/user\/getinfo url script-response-body Baidutext.js
+^https:\/\/appwk\.baidu\.com\/naapi\/user\/getinfo url script-response-body https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Baidutext.js
 
 [mitm] 
 
