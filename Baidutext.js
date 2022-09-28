@@ -22,7 +22,7 @@ hostname = appwk.baidu.com
 var body = $response.body;
 var data = JSON.parse(body);
 
-data = {"status":{"code":0,"msg":""},"data":{"isNewVipSwitch":1,"invitationCode":"","newUserCenterMsg":"","myInvitationCode":"","isTodayNewUser":0,"username":"510004015","avatar":"https:\/\/himg.bdimg.com\/sys\/portraitn\/item\/public.1.4f01cae2.KcHd6Qpv5Eyx1Td6QcmVQQ","auth":1,"popup":0,"userWealth":0,"downloadTicket":0,"impendingFailureTicket":0,"signinStatus":0,"stSigninStatus":0,"vip":{
+data = {"status":{"code":0,"msg":""},"data":{"isNewVipSwitch":1,"invitationCode":"","newUserCenterMsg":"","myInvitationCode":"","isTodayNewUser":0,"username":"问好","avatar":"https:\/\/himg.bdimg.com\/sys\/portraitn\/item\/public.1.4f01cae2.KcHd6Qpv5Eyx1Td6QcmVQQ","auth":1,"popup":0,"userWealth":0,"downloadTicket":0,"impendingFailureTicket":0,"signinStatus":0,"stSigninStatus":0,"vip":{
       "base_vip_info":[],
       "edu_vip_info":[],
       "jiaoyu_vip_info":{
