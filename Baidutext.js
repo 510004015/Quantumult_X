@@ -20,9 +20,9 @@ hostname = appwk.baidu.com
 *******************************/
 
 var body = $response.body;
-var objk = JSON.parse(body);
+var new data = JSON.parse(body);
 
-objk = {"status":{"code":0,"msg":""},"data":{"isNewVipSwitch":1,"invitationCode":"","newUserCenterMsg":"","myInvitationCode":"","isTodayNewUser":0,"username":"510004015","avatar":"https:\/\/himg.bdimg.com\/sys\/portraitn\/item\/public.1.4f01cae2.KcHd6Qpv5Eyx1Td6QcmVQQ","auth":1,"popup":0,"userWealth":0,"downloadTicket":0,"impendingFailureTicket":0,"signinStatus":0,"stSigninStatus":0,"vip":{
+new data = {"status":{"code":0,"msg":""},"data":{"isNewVipSwitch":1,"invitationCode":"","newUserCenterMsg":"","myInvitationCode":"","isTodayNewUser":0,"username":"510004015","avatar":"https:\/\/himg.bdimg.com\/sys\/portraitn\/item\/public.1.4f01cae2.KcHd6Qpv5Eyx1Td6QcmVQQ","auth":1,"popup":0,"userWealth":0,"downloadTicket":0,"impendingFailureTicket":0,"signinStatus":0,"stSigninStatus":0,"vip":{
       "base_vip_info":[],
       "edu_vip_info":[],
       "jiaoyu_vip_info":{
@@ -35,6 +35,6 @@ objk = {"status":{"code":0,"msg":""},"data":{"isNewVipSwitch":1,"invitationCode"
         "pro_total":5,
         "normal_total":0
       },"new_vip_info":[],"end_time":null,"remain_day":-19262},"task_list":[1,2,3,4,101,102,103,1001],"navipMutexInfo":{"status":0,"msg":""},"oldVipOrNewVip":1,"navipMutexInfoNew":[],"expireVipInfo":{"expireRemaindTime":0,"isExpireVip":false},"shopInfo":{},"isShop":0,"coin":"0.00","isLock":0,"lockReason":"","customerTag":1,"isNewCustomer":1,"newCustomerStyle":1,"newCustomerSwitch":0,"isSendVoucher":false,"voucherCount":1,"totalOff":0,"totalNum":0,"vipDoc":0,"doc8total":0,"freeDoc":0,"docConv":0,"vipDay":null,"uid_str":"1660e391a48da0116c175f0e7cd184254b351bcb","activityDesc":"","discountCard":{"isShow":false}}}
-body = JSON.stringify(objk);
+body = JSON.stringify(new data);
 
 $done({body});
