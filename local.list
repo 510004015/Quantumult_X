@@ -1,0 +1,8 @@
+host-suffix, local
+ip-cidr, 192.168.0.0/16
+ip-cidr, 10.0.0.0/8
+ip-cidr, 172.16.0.0/12
+ip-cidr, 127.0.0.0/8
+ip-cidr, 100.64.0.0/10
+ip-cidr, 224.0.0.0/4
+ip6-cidr, fe80::/10
