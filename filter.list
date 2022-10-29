@@ -11,3 +11,5 @@ host-suffix, safebrowsing.googleapis.com
 host-suffix, lookup.api.bsb.baidu.com
 # > Safari防跳转
 host, app-site-association.cdn-apple.com
+# > 拦截100
+HOST, ntb.lanjie100.com
