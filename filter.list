@@ -13,3 +13,5 @@ host-suffix, lookup.api.bsb.baidu.com
 host, app-site-association.cdn-apple.com
 # > 拦截100
 HOST, ntb.lanjie100.com
+# > Bilibili去广告
+ip-cidr, 203.107.1.1/24
