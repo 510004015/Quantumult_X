@@ -12,5 +12,5 @@ hostname = app-izz.zhengzhou.gov.cn
 */
 
 let OBJ = JSON.parse($response.body);
-OBJ.data.data=[{}]
+OBJ.data.modules.data=[{}]
 $done({ body: JSON.stringify(OBJ) });
