@@ -2,9 +2,9 @@
 
 [rewrite_local]
 
-^https:\/\/tagit\.lanjie100\.com\/cypt\/block100\/get_vip_info url script-request-body https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Labjie100.js
+^https:\/\/tagit\.lanjie100\.com\/cypt\/block100\/get_vip_info url script-request-body https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Lanjie100.js
 
-;^https:\/\/tagit\.lanjie100\.com\/cypt\/block100\/get_vip_info url script-request-body Labjie100.js
+;^https:\/\/tagit\.lanjie100\.com\/cypt\/block100\/get_vip_info url script-request-body Lanjie100.js
 
 [mitm] 
 
