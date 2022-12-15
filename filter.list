@@ -15,3 +15,8 @@ host, app-site-association.cdn-apple.com
 HOST, ntb.lanjie100.com
 # > Bilibili去广告
 ip-cidr, 203.107.1.1/24
+# > 口袋壁纸弹窗广告
+host, ad.tmsdk.cn, reject
+host-suffix, 9imobi.com, reject
+host-suffix, tianmu.mobi, reject
+host-suffix, admobile.top, reject
