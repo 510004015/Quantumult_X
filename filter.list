@@ -1,10 +1,3 @@
-# > 知乎去广告
-IP-CIDR,118.89.204.198/32
-IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
-HOST,appcloud2.in.zhihu.com
-HOST,mqtt.zhihu.com
-HOST,sugar.zhihu.com
-USER-AGENT,AVOS*
 # > 屏蔽拦截
 host-suffix, safebrowsing.urlsec.qq.com
 host-suffix, safebrowsing.googleapis.com
@@ -13,10 +6,8 @@ host-suffix, lookup.api.bsb.baidu.com
 host, app-site-association.cdn-apple.com
 # > 拦截100
 HOST, ntb.lanjie100.com
-# > Bilibili去广告
-ip-cidr, 203.107.1.1/24
 # > 口袋壁纸弹窗广告
-host, ad.tmsdk.cn, reject
-host-suffix, 9imobi.com, reject
-host-suffix, tianmu.mobi, reject
-host-suffix, admobile.top, reject
+host, ad.tmsdk.cn
+host-suffix, admobile.top
+host-suffix, 9imobi.com
+host-suffix, tianmu.mobi
