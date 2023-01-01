@@ -83,7 +83,7 @@ opt={
   ],
   "level_info" : {
     "history_value" : 140,
-    "current_level" : 1,
+    "current_level" : 10,
     "last_manual_collection_time" : 0,
     "current_value" : 140,
     "history_level" : 1,
