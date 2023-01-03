@@ -4,8 +4,14 @@ host-suffix, safebrowsing.googleapis.com
 host-suffix, lookup.api.bsb.baidu.com
 # > Safari防跳转
 host, app-site-association.cdn-apple.com
+# > 绕过企业证书过期
+host, ocsp.apple.com
+# > 避免迅雷版权问题
+host, hub5idx.v6.shub.sandai.net
+host, hub5emu.v6.shub.sandai.net
+host, hub5btmain.v6.shub.sandai.net
 # > 拦截100
-HOST, ntb.lanjie100.com
+host, ntb.lanjie100.com
 # > 口袋壁纸弹窗广告
 host, ad.tmsdk.cn
 host-suffix, admobile.top
