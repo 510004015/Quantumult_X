@@ -2,7 +2,7 @@
 
 [rewrite_local]
 
-^https:\/\/api-drive\.mypikpak\.com\/vip\/v1\/vip\/info url script-response-body https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/PikPak.js
+^https:\/\/api-drive\.mypikpak\.com\/vip\/v\d\/vip\/info url script-response-body https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/PikPak.js
 
 [mitm] 
 
