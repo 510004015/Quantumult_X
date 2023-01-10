@@ -3,7 +3,6 @@
 [rewrite_local]
 
 ^https:\/\/api\.mojidict\.com\/parse\/functions\/getNPrivileges url script-response-body https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/MOJi.js
-^https:\/\/api\.mojidict\.com\/parse\/functions\/fetchAds url reject
 
 [mitm] 
 
