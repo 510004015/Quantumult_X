@@ -1,5 +1,11 @@
 /*
 
+> 应用名称：MOJi辞書:日语学习词典
+> 软件版本：6.28.1
+> 脚本作者：510004015
+> 解锁说明：解锁部分高级会员功能，具体自测。
+> 更新时间：2023-01-11
+
 [rewrite_local]
 
 ^https:\/\/api\.mojidict\.com\/parse\/functions\/getNPrivileges url script-response-body https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/MOJi.js
