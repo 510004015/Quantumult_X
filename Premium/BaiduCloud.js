@@ -12,7 +12,6 @@ hostname = pan.baidu.com
 
 let Premium = $response.body;
 var modified = JSON.parse(Premium);
-
 modified = {
   "product_infos" : [
     {
@@ -35,5 +34,4 @@ modified = {
     "current_level" : 10,
   }
 };
-
 $done({body:JSON.stringify(modified)});
