@@ -12,7 +12,6 @@ hostname = api.mojidict.com
 
 let Premium = $response.body
 var modified = JSON.parse(Premium);
-
 modified.result.result[2] = {
         "identity" : "000-002-00001",
         "privilegeStatus" : "activated",
@@ -24,5 +23,4 @@ modified.result.result[2] = {
         },
         "canPay" : true
       };
-
 $done({body:JSON.stringify(modified)});
