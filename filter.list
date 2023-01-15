@@ -1,19 +1,22 @@
-# > 口袋壁纸弹窗广告
-host, ad.tmsdk.cn
-host-suffix, admobile.top
-host-suffix, 9imobi.com
-host-suffix, tianmu.mobi
-# > 拦截100
+# > 拦截100隐私保护
 host, ntb.lanjie100.com
 # > 绕过企业证书过期
 host, ocsp.apple.com
+# > Safari防跳转
+host, app-site-association.cdn-apple.com
 # > 屏蔽拦截
 host-suffix, safebrowsing.urlsec.qq.com
 host-suffix, safebrowsing.googleapis.com
 host-suffix, lookup.api.bsb.baidu.com
-# > Safari防跳转
-host, app-site-association.cdn-apple.com
 # > 避免迅雷版权问题
 host, hub5idx.v6.shub.sandai.net
 host, hub5emu.v6.shub.sandai.net
 host, hub5btmain.v6.shub.sandai.net
+# > 高德地图Ads
+host, amdc.m.taobao.com
+# > 口袋壁纸Ads
+host, ad.tmsdk.cn
+host-suffix, admobile.top
+host-suffix, 9imobi.com
+host-suffix, tianmu.mobi
+
