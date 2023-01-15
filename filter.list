@@ -4,10 +4,6 @@ host, ntb.lanjie100.com
 host, ocsp.apple.com
 # > Safari防跳转
 host, app-site-association.cdn-apple.com
-# > 屏蔽拦截
-host-suffix, safebrowsing.urlsec.qq.com
-host-suffix, safebrowsing.googleapis.com
-host-suffix, lookup.api.bsb.baidu.com
 # > 避免迅雷版权问题
 host, hub5idx.v6.shub.sandai.net
 host, hub5emu.v6.shub.sandai.net
@@ -19,3 +15,7 @@ host, ad.tmsdk.cn
 host-suffix, admobile.top
 host-suffix, 9imobi.com
 host-suffix, tianmu.mobi
+# > 屏蔽拦截
+host-suffix, safebrowsing.urlsec.qq.com
+host-suffix, safebrowsing.googleapis.com
+host-suffix, lookup.api.bsb.baidu.com
