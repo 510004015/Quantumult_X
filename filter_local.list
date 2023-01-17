@@ -14,3 +14,5 @@ ip6-cidr, fe80::/10
 host, ad.12306.cn
 # > 配合(https://github.com/ddgksf2013/Scripts/raw/master/caixinads.js)使用
 host, gg.caixin.com
+# > Github加速
+host, ghproxy.com
