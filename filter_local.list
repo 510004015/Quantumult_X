@@ -12,3 +12,5 @@ ip-cidr, 100.64.0.0/10
 ip6-cidr, fe80::/10
 # > 配合(https://github.com/ddgksf2013/Scripts/raw/master/12306.js)使用
 host, ad.12306.cn
+# > 配合(https://github.com/ddgksf2013/Scripts/raw/master/caixinads.js)使用
+host, gg.caixin.com
