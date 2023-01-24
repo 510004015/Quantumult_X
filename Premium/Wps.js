@@ -41,4 +41,4 @@ modified = {
   wealth: 0,
   expire_time: 4070880000
 };
-$done({ body: JSON.stringify(obj) });
+$done({ body: JSON.stringify(modified)});
