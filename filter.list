@@ -1,4 +1,6 @@
 # > REJECT
+# > 菜鸟裹裹
+host, amdc.m.taobao.com
 # > 拦截100隐私保护
 host, ntb.lanjie100.com
 # > 绕过企业证书过期
