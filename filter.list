@@ -1,7 +1,5 @@
-# > REJECT
-# > 菜鸟裹裹
-host, amdc.m.taobao.com
-# > 高德地图
+// REJECT
+# > 菜鸟裹裹&高德地图
 host, amdc.m.taobao.com
 # > 口袋壁纸
 host, ad.tmsdk.cn
