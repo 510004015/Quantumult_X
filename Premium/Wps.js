@@ -6,7 +6,7 @@
 
 [Mitm]
 
-hostname = *account.wps.cn, *account.wps.com
+hostname = account.wps.cn
 
 */
 
