@@ -1,4 +1,7 @@
 # > Direct
+# > 规则修正
+host-suffix, 40017.cn
+host-suffix, 17u.cn
 # > Local Area Network 局域网[@DivineEngine]
 host-suffix, local
 # > FILTER_LAN[@Sample]
