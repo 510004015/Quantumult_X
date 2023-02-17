@@ -15,4 +15,4 @@ ip-cidr, 172.16.0.0/12
 ip-cidr, 192.168.0.0/16
 ip-cidr, 224.0.0.0/24
 # > FILTER_REGION
-GEOIP, CN
+geoip, cn
