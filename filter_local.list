@@ -19,3 +19,5 @@ host, ad.12306.cn
 host, gg.caixin.com
 # > Github加速
 host, ghproxy.com
+//[https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/Country.mmdb]
+geoip, cn
