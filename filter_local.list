@@ -2,22 +2,17 @@
 # > 规则修正
 host-suffix, 40017.cn
 host-suffix, 17u.cn
-# > Local Area Network 局域网[@DivineEngine]
-host-suffix, local
-# > FILTER_LAN[@Sample]
-ip-cidr, 10.0.0.0/8
-ip-cidr, 127.0.0.0/8
-ip-cidr, 172.16.0.0/12
-ip-cidr, 192.168.0.0/16
-ip-cidr, 224.0.0.0/24
-//[@DivineEngine]
-ip-cidr, 100.64.0.0/10
-ip6-cidr, fe80::/10
 # > 配合(https://github.com/ddgksf2013/Scripts/raw/master/12306.js)使用
 host, ad.12306.cn
 # > 配合(https://github.com/ddgksf2013/Scripts/raw/master/caixinads.js)使用
 host, gg.caixin.com
 # > Github加速
 host, ghproxy.com
-//[https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/Country.mmdb]
-geoip, cn
+# > FILTER_LAN
+ip-cidr, 10.0.0.0/8
+ip-cidr, 127.0.0.0/8
+ip-cidr, 172.16.0.0/12
+ip-cidr, 192.168.0.0/16
+ip-cidr, 224.0.0.0/24
+# > FILTER_REGION
+GEOIP, CN
