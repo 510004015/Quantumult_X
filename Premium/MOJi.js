@@ -3,7 +3,7 @@
 [rewrite_local]
 
 ^https:\/\/api\.mojidict\.com\/parse\/functions\/getNPrivileges url script-response-body https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/MOJi.js
-^https:\/\/api\.mojidict\.com\/parse\/functions url script-request-header 
+^https:\/\/api\.mojidict\.com\/parse\/functions url script-request-header https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/JavaScript/MOJiData.js
 
 [mitm] 
 
@@ -11,7 +11,7 @@ hostname = api.mojidict.com
 
 */
 
-let Premium = $response.body
+let Premium = $response.body;
 var modified = JSON.parse(Premium);
 modified.result.result[2] = {
         "identity" : "000-002-00001",
