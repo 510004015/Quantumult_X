@@ -1,13 +1,3 @@
-# > Direct
-# > 规则修正
-host-suffix, 40017.cn
-host-suffix, 17u.cn
-# > 配合(https://github.com/ddgksf2013/Scripts/raw/master/12306.js)使用
-host, ad.12306.cn
-# > 配合(https://github.com/ddgksf2013/Scripts/raw/master/caixinads.js)使用
-host, gg.caixin.com
-# > Github加速
-host, ghproxy.com
 # > FILTER_LAN
 ip-cidr, 10.0.0.0/8
 ip-cidr, 127.0.0.0/8
