@@ -1,3 +1,5 @@
 var Title = ' ';
-var Subtitle ' ';
-$done({Title, Subtitle});
+var Subtitle = ' ';
+var Ip = ' ';
+var Description = ' ';
+$done({Title, Subtitle, Ip, Description});
