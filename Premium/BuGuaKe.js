@@ -2,7 +2,7 @@
 
 [rewrite_local]
 
-^https:\/\/appwk\.baidu\.com\/bgk\/(user\/getinfo|doc\/(getdocdownloadcopywriter|quedocsearch\?) url script-response-body https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/BuGuaKe.js
+^https:\/\/appwk\.baidu\.com\/bgk\/(user\/getinfo|doc\/(getdocdownloadcopywriter|quedocsearch\?)) url script-response-body https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/BuGuaKe.js
 
 [mitm] 
 
