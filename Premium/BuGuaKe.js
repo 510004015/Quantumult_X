@@ -17,7 +17,7 @@ const URL2 = '/doc/quedocsearch';
 const URL3 = '/doc/getdocdownloadcopywriter';
 if (url.indexOf(URL1) != -1) {
 modified.data.saveMoney.sumMoney = "510004015";
-modified.data.saveMoney.user_vip_tip = "永久会员";
+modified.data.saveMoney.user_vip_tip = "永久会员✨🌈";
 modified.data.vip = {"jiaoyu_vip_info":{"uid":510004015,"is_vip":1,"start_time":1672502400,"end_time":4070880000,"pro_total":510004015,"remain_day":510004015}};
      body = JSON.stringify(modified);
 };
@@ -26,7 +26,7 @@ if (url.indexOf(URL2) != -1) {
 };
 if (url.indexOf(URL3) != -1) {
 modified.data.downloadStatus = 19;
-modified.data.copywriter2 = "因为下载需要验证Token，So～想下载花钱吧。🤡";
+modified.data.copywriter2 = "下载需要验证Token，再问就不礼貌了。@问好";
      body = JSON.stringify(modified);
 };
 $done({ body });
