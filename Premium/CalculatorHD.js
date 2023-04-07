@@ -2,7 +2,7 @@
 
 [rewrite_local]
 
-^https:\/\/www\.40sishi\.com\/calculator\/user\/profile url script-response-body https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/CalculatorHD.js
+^https:\/\/www\.40sishi\.com\/calculator\/user\/profile$ url script-response-body https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/CalculatorHD.js
 
 [mitm] 
 
