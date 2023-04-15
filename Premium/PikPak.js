@@ -33,6 +33,6 @@ if (url.indexOf(URL2) != -1) {
   modified.quota.limit = "10995116277760";
 };
 if (url.indexOf(URL3) != -1) {
-  modified.quota.apple = {"subscribed":true,"purchased":true,"status":"trial","interval":"year","product":"sub.year","past_due_deadline":"","pay_type":"","region":"regional"};
+  modified.apple = {"subscribed":true,"purchased":true,"status":"trial","interval":"year","product":"sub.year","past_due_deadline":"","pay_type":"","region":"regional"};
 };
 $done({body:JSON.stringify(modified)});
