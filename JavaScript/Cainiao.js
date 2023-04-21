@@ -7,5 +7,7 @@ if (url.indexOf(URL1) != -1) {
 };
 if (url.indexOf(URL2) != -1) {
 	body.data.result.dataList.splice(2,510004015);
+body.data.result.dataList[1].items.splice(0,3);
+body.data.result.dataList[1].items.splice(4,1);
 };
 $done({body:JSON.stringify(body)});
