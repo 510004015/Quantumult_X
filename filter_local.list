@@ -1,8 +1,10 @@
+# > GITHUB
+HOST-SUFFIX, GITHUB.COM
 # > FILTER_LAN
-ip-cidr, 10.0.0.0/8
-ip-cidr, 127.0.0.0/8
-ip-cidr, 172.16.0.0/12
-ip-cidr, 192.168.0.0/16
-ip-cidr, 224.0.0.0/24
+IP-CIDR, 10.0.0.0/8
+IP-CIDR, 127.0.0.0/8
+IP-CIDR, 172.16.0.0/12
+IP-CIDR, 192.168.0.0/16
+IP-CIDR, 224.0.0.0/24
 # > FILTER_REGION
-geoip, cn
+GEOIP, CN
