@@ -5,4 +5,4 @@ let str = '<head>\
 let body = $response.body.replace(reg, str).replace(/player\.preroll\([\s\S]+?\);/g, 'player.preroll();');
 let headers = $response.headers;
 headers['Content-Security-Policy'] = '';
-$done({ headers, body, url })
+$done({headers, body})
