@@ -19,36 +19,36 @@ mock.data.token = "eyJhbGciOiJFUzI1NiIsImtleV92ZXJzaW9uIjoyMCwic2NvcGUiOiIqIiwid
 mock.data.merchandises = [
       {
         "sku_key" : "vip_pro_plus",
-        "expire_time" : 4070880000,
-        "effect_time" : 982425600,
+        "expire_time" : 1709288260,
+        "effect_time" : 1701253060,
         "name" : "WPS超级会员Pro套餐",
         "type" : "vip"
       },
       {
         "sku_key" : "vip_pro",
-        "expire_time" : 4070880000,
-        "effect_time" : 982425600,
+        "expire_time" : 1709606845,
+        "effect_time" : 1709288260,
         "name" : "WPS超级会员基础套餐",
         "type" : "vip"
       },
       {
         "sku_key" : "12",
-        "expire_time" : 4070880000,
-        "effect_time" : 982425600,
+        "expire_time" : 1654102565,
+        "effect_time" : 1653497765,
         "name" : "稻壳会员",
         "type" : "vip"
       },
       {
         "sku_key" : "20",
-        "expire_time" : 4070880000,
-        "effect_time" : 982425600,
+        "expire_time" : 1654102566,
+        "effect_time" : 1653497766,
         "name" : "WPS会员",
         "type" : "vip"
       },
       {
         "sku_key" : "ai_points_cn_defer",
-        "expire_time" : 4070880000,
-        "effect_time" : 982425600,
+        "expire_time" : 1704089714,
+        "effect_time" : 1701411314,
         "name" : "AI能量递延体验包",
         "type" : "privilege"
       }
