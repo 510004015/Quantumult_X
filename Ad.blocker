@@ -1,0 +1,14 @@
+/*
+tester
+仅记录一些日常使用的app
+*/
+
+hostname = res.xiaojukeji.com, omgup?.xiaojukeji.com
+
+//真心被dd写开屏广告接口的人恶心到
+
+^https:\/\/omgup[\d]?\.xiaojukeji\.com\/api\/web\/stat url reject
+
+^https:\/\/omgup[\d]?\.xiaojukeji\.com\/api\/stat\/ios url reject
+
+^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget url reject
