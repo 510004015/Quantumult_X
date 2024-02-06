@@ -3,7 +3,7 @@ tester
 仅记录一些日常使用的app
 */
 
-hostname = res.xiaojukeji.com, omgup?.xiaojukeji.com, mobilegw.alipay.com, client.app.coc.10086.cn, smartad.10010.com
+hostname = res.xiaojukeji.com, omgup*.xiaojukeji.com, mobilegw.alipay.com, client.app.coc.10086.cn, smartad.10010.com
 
 //真心被dd写开屏广告接口的人恶心到
 
