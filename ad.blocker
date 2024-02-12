@@ -3,10 +3,14 @@ tester
 仅记录一些日常使用的app
 */
 
-hostname = client.app.coc.10086.cn, smartad.10010.com
+hostname = img*.didistatic.com, client.app.coc.10086.cn, smartad.10010.com
 
 //三大运营商开屏（电信最sb）
 
 ^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/ url reject
 
 ^https:\/\/smartad\.10010\.com\/msupport\/count\/businessLogPoint url reject
+
+//滴滴打车，硬磕到底！！
+
+^https:\/\/[.*?]\.didistatic\.com\/static\/ad_oss\/[.*?]\.jpg
