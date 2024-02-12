@@ -3,19 +3,7 @@ tester
 仅记录一些日常使用的app
 */
 
-hostname = res.xiaojukeji.com, omgup*.xiaojukeji.com, mobilegw.alipay.com, client.app.coc.10086.cn, smartad.10010.com
-
-//真心被dd写开屏广告接口的人恶心到
-
-^https:\/\/omgup[\d]?\.xiaojukeji\.com\/api\/web\/stat url reject
-
-^https:\/\/omgup[\d]?\.xiaojukeji\.com\/api\/stat\/ios url reject
-
-^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget url reject
-
-//似乎配合以下重写禁用ad.12306，的域名就可以，不确定。再看看！！
-
-^https:\/\/mobilegw\.alipay\.com\/mgw\.htm url reject
+hostname = client.app.coc.10086.cn, smartad.10010.com
 
 //三大运营商开屏（电信最sb）
 
