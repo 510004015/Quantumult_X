@@ -13,4 +13,4 @@ hostname = img*.didistatic.com, client.app.coc.10086.cn, smartad.10010.com
 
 //滴滴打车，硬磕到底！！
 
-^https:\/\/[.*?]\.didistatic\.com\/static\/ad_oss\/[.*?]\.jpg
+^https:\/\/[.*?]\.didistatic\.com\/static\/ad_oss\/[.*?]\.jpg url reject
