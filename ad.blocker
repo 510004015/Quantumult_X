@@ -3,7 +3,7 @@ tester
 仅记录一些日常使用的app
 */
 
-hostname = webappcfg.paas.cmbchina.com, img*.didistatic.com, client.app.coc.10086.cn, smartad.10010.com, www.189.cn
+hostname = api.didi.cn, webappcfg.paas.cmbchina.com, img*.didistatic.com, client.app.coc.10086.cn, smartad.10010.com, www.189.cn
 
 //三大运营商开屏（电信最sb）
 
@@ -17,5 +17,8 @@ hostname = webappcfg.paas.cmbchina.com, img*.didistatic.com, client.app.coc.1008
 
 ^https:\/\/(.*?)\.didistatic\.com\/static\/ad_oss\/(.*?)\.jpg url reject
 
+^https:\/\/api\.didi\.cn\/webx\/na\/getProdPageConf url reject
+
 //招商银行开屏，我只能说qx  nb！！
+
 ^https:\/\/webappcfg\.paas\.cmbchina\.com\/v1\/func\/getmarketconfig url reject
