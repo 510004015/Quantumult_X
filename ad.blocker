@@ -3,9 +3,9 @@ tester
 仅记录一些日常使用的app
 */
 
-hostname = api.didi.cn, webappcfg.paas.cmbchina.com, img*.didistatic.com, client.app.coc.10086.cn, smartad.10010.com, www.189.cn
+hostname = api.didi.cn, webappcfg.paas.cmbchina.com, img*.didistatic.com, smartad.10010.com, www.189.cn
 
-//三大运营商开屏（电信最sb）
+//电信+联通开屏（电信最sb）
 
 ^https:\/\/smartad\.10010\.com\/msupport\/count\/businessLogPoint url reject
 
