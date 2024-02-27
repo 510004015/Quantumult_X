@@ -17,6 +17,8 @@ hostname = api.didi.cn, webappcfg.paas.cmbchina.com, img*.didistatic.com, clien
 
 ^https:\/\/(.*?)\.didistatic\.com\/static\/ad_oss\/(.*?)\.jpg url reject
 
+^https:\/\/(.*?)\.didistatic\.com\/static\/ad_oss\/(.*?)\.png \r\nAccept: image\/\*,\*\/\*;q=0\.8 url-and-header reject
+
 ^https:\/\/api\.didi\.cn\/webx\/na\/getProdPageConf url reject
 
 //招商银行开屏，我只能说qx  nb！！
