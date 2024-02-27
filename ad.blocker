@@ -7,8 +7,6 @@ hostname = api.didi.cn, webappcfg.paas.cmbchina.com, img*.didistatic.com, clien
 
 //三大运营商开屏（电信最sb）
 
-^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/ url reject
-
 ^https:\/\/smartad\.10010\.com\/msupport\/count\/businessLogPoint url reject
 
 ^https:\/\/www\.189\.cn\/images\/(.*?)\.jpg url reject
@@ -16,8 +14,6 @@ hostname = api.didi.cn, webappcfg.paas.cmbchina.com, img*.didistatic.com, clien
 //滴滴打车，硬磕到底！！
 
 ^https:\/\/(.*?)\.didistatic\.com\/static\/ad_oss\/(.*?)\.jpg url reject
-
-^https:\/\/(.*?)\.didistatic\.com\/static\/ad_oss\/(.*?)\.png \r\nAccept: image\/\*,\*\/\*;q=0\.8 url-and-header reject
 
 ^https:\/\/api\.didi\.cn\/webx\/na\/getProdPageConf url reject
 
