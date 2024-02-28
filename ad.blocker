@@ -3,19 +3,15 @@ tester
 仅记录一些日常使用的app
 */
 
-hostname = api.didi.cn, webappcfg.paas.cmbchina.com, img*.didistatic.com, smartad.10010.com, www.189.cn
+hostname = webappcfg.paas.cmbchina.com, img*.didistatic.com, smartad.10010.com
 
-//电信+联通开屏（电信最sb）
+//联通开屏
 
 ^https:\/\/smartad\.10010\.com\/msupport\/count\/businessLogPoint url reject
-
-^https:\/\/www\.189\.cn\/images\/(.*?)\.jpg url reject
 
 //滴滴打车，硬磕到底！！
 
 ^https:\/\/(.*?)\.didistatic\.com\/static\/ad_oss\/(.*?)\.jpg url reject
-
-^https:\/\/api\.didi\.cn\/webx\/na\/getProdPageConf url reject
 
 //招商银行开屏，我只能说qx  nb！！
 
