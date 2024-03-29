@@ -11,7 +11,7 @@ hostname = webappcfg.paas.cmbchina.com, img*.didistatic.com, smartad.10010.com
 
 //滴滴打车，硬磕到底！！
 
-^https:\/\/(.*?)\.didistatic\.com\/static\/ad_oss\/((.*?)\.jpg|1708606686_latnp\.png)$ url reject
+^https:\/\/(.*?)\.didistatic\.com\/static\/ad_oss\/((.*?)\.jpg|(\d+_latnp|\d+_zuvda)\.png)$ url reject
 
 //招商银行开屏，我只能说qx  nb！！
 
