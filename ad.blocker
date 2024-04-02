@@ -3,7 +3,7 @@ tester
 仅记录一些日常使用的app
 */
 
-hostname = webappcfg.paas.cmbchina.com, img*.didistatic.com, smartad.10010.com
+hostname = fuwu.nhsa.gov.cn, webappcfg.paas.cmbchina.com, img*.didistatic.com, smartad.10010.com
 
 //联通开屏
 
@@ -16,3 +16,7 @@ hostname = webappcfg.paas.cmbchina.com, img*.didistatic.com, smartad.10010.com
 //招商银行开屏，我只能说qx  nb！！
 
 ^https:\/\/webappcfg\.paas\.cmbchina\.com\/v1\/func\/getmarketconfig url reject
+
+//医保开屏，不理解。至少不应该
+
+^https:\/\/fuwu\.nhsa\.gov\.cn\/ebus\/fuwu\/api\/base\/cms\/iep\/web\/cms\/hmpgcfg\/queryAppHmpgCfgByApp url reject
