@@ -3,7 +3,7 @@ tester
 仅记录一些日常使用的app
 */
 
-hostname = fuwu.nhsa.gov.cn, webappcfg.paas.cmbchina.com, img*.didistatic.com, smartad.10010.com
+hostname = fuwu.nhsa.gov.cn, webappcfg.paas.cmbchina.com, img*.didistatic.com, h.app.coc.10086.cn, smartad.10010.com
 
 //联通开屏
 
