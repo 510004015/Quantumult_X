@@ -3,11 +3,13 @@ tester
 仅记录一些日常使用的app
 */
 
-hostname = fuwu.nhsa.gov.cn, webappcfg.paas.cmbchina.com, img*.didistatic.com, h.app.coc.10086.cn, smartad.10010.com
+hostname = fuwu.nhsa.gov.cn, webappcfg.paas.cmbchina.com, img*.didistatic.com, h.app.coc.10086.cn, m.client.10010.com, smartad.10010.com
 
 //联通开屏
 
 ^https:\/\/smartad\.10010\.com\/msupport\/count\/businessLogPoint url reject
+
+^https:\/\/m\.client\.10010\.com\/mobileserviceNine\/englishBusiness\/getEnterInfo url reject
 
 //移动英文版优化
 
