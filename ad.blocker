@@ -13,6 +13,8 @@ hostname = fuwu.nhsa.gov.cn, webappcfg.paas.cmbchina.com, img*.didistatic.com, 
 
 ^https:\/\/h\.app\.coc\.10086\.cn\/biz-orange\/DN\/englishEdition\/getEnglishEditionData url reject
 
+^https:\/\/h\.app\.coc\.10086\.cn\/biz-orange\/SHS\/businessHall\/getStationListNearby url reject
+
 //滴滴打车，硬磕到底！！
 
 ^https:\/\/(.*?)\.didistatic\.com\/static\/ad_oss\/((.*?)\.jpg|(\d+_(ryq3w|zuvda|latnp))\.png)$ url reject
