@@ -9,7 +9,7 @@ hostname = fuwu.nhsa.gov.cn, webappcfg.paas.cmbchina.com, img*.didistatic.com, 
 
 ^https:\/\/smartad\.10010\.com\/msupport\/count\/businessLogPoint url reject
 
-^https:\/\/m\.client\.10010\.com\/mobileserviceNine\/englishBusiness\/getEnterInfo url reject
+^https:\/\/m\.client\.10010\.com\/mobileserviceNine\/englishBusiness\/getEnterInfo url response-body data":\{.+?\} response-body data":{}
 
 //移动英文版优化
 
