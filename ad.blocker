@@ -5,6 +5,10 @@ tester
 
 hostname = fuwu.nhsa.gov.cn, webappcfg.paas.cmbchina.com, img*.didistatic.com, h.app.coc.10086.cn, m.client.10010.com, smartad.10010.com
 
+//lucky coffee
+
+^https:\/\/capi\.lkcoffee\.com\/resource\/m\/eorder\/product\/popAppTagProductList url reject
+
 //联通开屏
 
 ^https:\/\/smartad\.10010\.com\/msupport\/count\/businessLogPoint url reject
