@@ -3,7 +3,7 @@ tester
 仅记录一些日常使用的app
 */
 
-hostname = fuwu.nhsa.gov.cn, webappcfg.paas.cmbchina.com, img*.didistatic.com, h.app.coc.10086.cn, m.client.10010.com, smartad.10010.com
+hostname = 121.36.107.31,fuwu.nhsa.gov.cn, webappcfg.paas.cmbchina.com, img*.didistatic.com, h.app.coc.10086.cn, m.client.10010.com, smartad.10010.com
 
 //lucky coffee
 
