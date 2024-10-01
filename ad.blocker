@@ -9,6 +9,10 @@ hostname = 152.136.248.40, 121.36.107.31, fuwu.nhsa.gov.cn, webappcfg.paas.cmbc
 
 ^https:\/\/capi\.lkcoffee\.com\/resource\/m\/eorder\/product\/popAppTagProductList url reject
 
+//Baidu
+
+^https:\/\/mime\.baidu\.com\/v5\/start_screen_ads url reject
+
 //联通开屏
 
 ^https:\/\/smartad\.10010\.com\/msupport\/count\/businessLogPoint url reject
