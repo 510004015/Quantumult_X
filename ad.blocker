@@ -6,7 +6,7 @@ tester
 hostname = m.ctrip.com, h3.open.taou.com, beta-luna.douyin.com, 152.136.248.40, 121.36.107.31, fuwu.nhsa.gov.cn, webappcfg.paas.cmbchina.com, img*.didistatic.com, h.app.coc.10086.cn, m.client.10010.com, smartad.10010.com
 
 // 携程ads
-^https:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/json\/tripAds
+^https:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/json\/tripAds url reject
 
 // 脉脉开屏
 ^https:\/\/h3\.open\.taou\.com\/maimai\/adshow url reject
